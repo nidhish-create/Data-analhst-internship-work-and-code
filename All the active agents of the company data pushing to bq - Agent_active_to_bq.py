@@ -4,7 +4,7 @@ import logging
 from service.database import InitDatabaseConnetion, make_db_params, fetch_record, DB_Params
 import pandas as pd 
 from datetime import datetime, timedelta
-from service.base_functions import msg_to 
+from service.base_functions import msg_to                    
 from service.send_mail_client import send_email
 import time
 from datetime import datetime, timedelta 
