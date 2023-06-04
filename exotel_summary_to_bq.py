@@ -3,7 +3,7 @@ import os
 import pytz 
 import re
 import pandas as pd
-from service.database import InitDatabaseConnetion, make_db_params, fetch_record,DB_Params
+from service.database import InitDatabaseConnetion, make_db_params, fetch_record,DB_Params      
 import logging
 #from requests.auth import HTTPBasicAuth
 from google.cloud import bigquery
