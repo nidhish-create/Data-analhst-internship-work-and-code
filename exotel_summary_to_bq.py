@@ -8,7 +8,7 @@ import logging
 #from requests.auth import HTTPBasicAuth
 from google.cloud import bigquery
 from service.base_functions import msg_to
-import numpy as np
+import numpy as np            
 import boto3 
 import requests
 import json
