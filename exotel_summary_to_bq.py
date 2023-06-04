@@ -12,7 +12,7 @@ import numpy as np
 import boto3 
 import requests
 import json
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta         
 from service.send_mail_client import send_email
 
 logger = logging.getLogger(__name__)
