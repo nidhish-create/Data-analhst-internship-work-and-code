@@ -5,7 +5,7 @@ import pytz
 import re  
 import numpy as np
 import pandas as pd 
-from datetime import datetime , timedelta              
+from datetime import datetime , timedelta                         
 import numpy as np  
 from service.database import InitDatabaseConnetion, make_db_params, fetch_record,DB_Params
 import logging
