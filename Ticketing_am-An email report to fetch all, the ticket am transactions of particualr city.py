@@ -4,7 +4,7 @@ import logging
 from service.database import InitDatabaseConnetion,make_db_params,fetch_record, DB_Params
 from service.send_mail_client import send_email
 import pandas as pd
-import csv
+import csv          
 from datetime import datetime, timedelta
     
 logger = logging.getLogger(__name__)             
