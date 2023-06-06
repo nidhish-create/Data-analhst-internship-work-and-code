@@ -6,7 +6,7 @@ from service.send_mail_client import send_email
 import pandas as pd
 import csv
 from datetime import datetime, timedelta
-
+    
 logger = logging.getLogger(__name__)             
 
 READ_DB_USER = os.environ.get('READ_DB_USER', '')
