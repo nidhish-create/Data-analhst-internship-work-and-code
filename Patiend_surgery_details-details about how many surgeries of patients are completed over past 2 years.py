@@ -8,7 +8,7 @@ import logging
 from service.base_functions import msg_to 
 from datetime import datetime , timedelta
 from service.send_mail_client import send_email
-# from s3_utils.utils import upload_to_s3
+# from s3_utils.utils import upload_to_s3                
 import numpy as np 
 from google.cloud import bigquery           
 import numpy as np 
