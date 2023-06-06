@@ -1,6 +1,6 @@
 import pdb
 import os
-import logging
+import logging          
 from service.database import InitDatabaseConnetion, make_db_params, fetch_record
 from service.send_mail_client import send_email
 import pandas as pd
