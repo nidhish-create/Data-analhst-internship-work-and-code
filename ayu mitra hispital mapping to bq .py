@@ -11,7 +11,7 @@ from datetime import datetime, timedelta
 from google.cloud import bigquery
 import boto3
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger(__name__)  
 
 READ_DB_USER = os.environ.get('READ_DB_USER', '')
 READ_DB_PASSWORD = os.environ.get('READ_DB_PASSWORD', '')
