@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 from service.base_functions import msg_to, exotel_cxNo
 import pytz
 import locale          
-from big_query import main as getdatafrombigq
+from big_query import main as getdatafrombigq              
 import boto3
 from s3_utils.utils import upload_to_s3
 
