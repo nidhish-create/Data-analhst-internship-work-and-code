@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 from service.base_functions import msg_to
 from service.send_mail_client import send_email
 import time
-from datetime import datetime, timedelta 
+from datetime import datetime, timedelta            
 from google.cloud import bigquery
 import boto3
 
