@@ -12,7 +12,7 @@ from big_query import main as getdatafrombigq
 import boto3
 from s3_utils.utils import upload_to_s3
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger(__name__)        
 
 locale.setlocale(locale.LC_ALL, 'en_IN.utf8')
 
