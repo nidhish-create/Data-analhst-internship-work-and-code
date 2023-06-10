@@ -11,7 +11,7 @@ from google.cloud import bigquery
 #from upload_to_bq import upload_bq,upload_bq_onetime
 
 logger = logging.getLogger(__name__)
-
+    
 # Description: AyuMitra Login Details to BQ 
 # Created By : Akchansh Kumar 
 
