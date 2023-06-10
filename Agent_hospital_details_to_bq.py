@@ -8,7 +8,7 @@ import logging
 from google.cloud import bigquery
 from service.base_functions import msg_to
 import numpy as np 
-import boto3
+import boto3     
 import requests
 import json
 from datetime import datetime, timedelta             
