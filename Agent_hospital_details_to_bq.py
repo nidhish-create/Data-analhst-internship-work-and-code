@@ -7,7 +7,7 @@ from service.database import InitDatabaseConnetion, make_db_params, fetch_record
 import logging  
 from google.cloud import bigquery
 from service.base_functions import msg_to
-import numpy as np 
+import numpy as np         
 import boto3     
 import requests         
 import json
