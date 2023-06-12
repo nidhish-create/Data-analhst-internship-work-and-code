@@ -4,7 +4,7 @@ import pytz
 import re
 import pandas as pd
 from service.database import InitDatabaseConnetion, make_db_params, fetch_record, DB_Params
-import logging
+import logging  
 from google.cloud import bigquery
 from service.base_functions import msg_to
 import numpy as np 
